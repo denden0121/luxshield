@@ -4,8 +4,8 @@ import LineImg from "@/assets/images/line.svg";
 
 const FirstSection = () => {
 	return (
-		<div className="w-full  border-green-900 h-dvh relative flex flex-row justify-start items-center">
-			<div className="w-1/2 h-full flex flex-col p-9 justify-between items-start  border-red-600">
+		<div className="w-full lenis-section border-green-900 h-dvh relative flex flex-row justify-start items-center">
+			<div className="w-1/2 h-full flex flex-col-reverse p-9 justify-between items-start  border-red-600">
 				<div className={`flex flex-col gap-4  w-2/6`}>
 					<p className="text-lg text-(--text-secondary) font-light">1 - 3</p>
 					<p className="text-4xl text-(--text-primary) font-extrabold">

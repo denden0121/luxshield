@@ -94,7 +94,7 @@ body {
 	line-height: 1.5;
 	/* 5. Improve text rendering */
 	-webkit-font-smoothing: antialiased;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	/* Common in GSAP to prevent snapping */
 	font-family: "Onest";
 }
@@ -125,7 +125,7 @@ h3,
 h4,
 h5,
 h6 {
-	overflow-wrap: break-word;
+	/* overflow-wrap: break-word; */
 }
 
 /* 9. Improve line wrapping */
@@ -150,14 +150,16 @@ h6 {
 	isolation: isolate;
 }
 
-* {
+/* * {
 	-ms-overflow-style: none;
-	/* IE and Edge */
 	scrollbar-width: none;
-	/* Firefox */
 }
 
 *::-webkit-scrollbar {
 	display: none;
-	/* Chrome, Safari, Opera */
+} */
+
+
+.snapSections {
+	scroll-snap-align: start;
 }

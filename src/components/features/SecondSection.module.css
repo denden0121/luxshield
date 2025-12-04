@@ -3,6 +3,7 @@
 	top: 50%;
 	right: -450px;
 	transform: rotate(180deg);
+	z-index: 200;
 }
 
 .lineImg img {

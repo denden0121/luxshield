@@ -12,7 +12,7 @@ const Hero = () => {
 	const modelRef = useRef();
 
 	return (
-		<div className="h-dvh w-full overflow-hidden bg-(--bg-primary) relative flex flex-row justify-start items-center">
+		<div className="h-dvh snapSections w-full overflow-hidden bg-(--bg-primary) relative flex flex-row justify-start items-center">
 			<span className={styles.helmetObjectContainer}>
 				{/* <img src={HeroImg} alt="" /> */}
 				<Canvas>
@@ -32,6 +32,7 @@ const Hero = () => {
 				<div className="border-red-600 h-2/4 w-ful flex flex-col justify-start items-start gap-8 ">
 					<div>
 						<svg
+							className="z-[150]"
 							width="978"
 							height="105"
 							viewBox="0 0 978 105"

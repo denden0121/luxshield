@@ -5,7 +5,9 @@ import SecondSection from "@/components/features/SecondSection";
 
 const Features = () => {
 	return (
-		<div className="min-h-dvh w-full overflow-hidden bg-(--bg-primary)  border-white relative flex flex-col justify-start items-center">
+		<div
+			className={`min-h-dvh w-full  bg-(--bg-primary)  border-white relative flex flex-col justify-start items-center  ${styles.featuresContainer}`}
+		>
 			<FirstSection />
 			<SecondSection />
 		</div>
