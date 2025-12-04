@@ -1,0 +1,15 @@
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: max-content;
+	gap: 12px;
+	font-size: 24px;
+	color: var(--text-primary);
+	padding: 12px 0px;
+}
+
+.logo img {
+	transform: rotateY(180deg);
+}
