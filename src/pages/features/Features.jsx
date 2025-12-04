@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./Features.module.css";
 import FirstSection from "@/components/features/FirstSection";
 import SecondSection from "@/components/features/SecondSection";
+import ThirdSection from "@/components/features/ThirdSection";
+import FourthSection from "@/components/features/FourthSection";
 
 const Features = () => {
 	return (
@@ -10,6 +12,8 @@ const Features = () => {
 		>
 			<FirstSection />
 			<SecondSection />
+			<ThirdSection />
+			<FourthSection />
 		</div>
 	);
 };

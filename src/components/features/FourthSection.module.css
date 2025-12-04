@@ -1,0 +1,12 @@
+.lineImg {
+	position: absolute;
+	top: 50%;
+	right: -450px;
+	/* transform: rotate(20deg); */
+	transform: rotate(180deg);
+	z-index: 200;
+}
+
+.lineImg img {
+	width: 400px;
+}

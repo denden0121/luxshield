@@ -4,6 +4,7 @@ import Navigation from "@/components/navigation/Navigation";
 import Hero from "@/pages/hero/Hero";
 import Features from "@/pages/features/Features";
 import Lenis from "@studio-freight/lenis";
+import Subscribe from "./components/subscribe/Subscribe";
 
 function App() {
 	useEffect(() => {
@@ -31,7 +32,7 @@ function App() {
 			<Navigation />
 			<Hero />
 			<Features />
-			<div className="h-dvh bg-(--bg-primary)"></div>
+			<Subscribe />
 		</div>
 	);
 }
