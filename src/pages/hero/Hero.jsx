@@ -85,7 +85,7 @@ const Hero = () => {
 						<IconShoppingCartFilled />
 					</button> */}
 					<button className="bg-(--text-primary) border border-(--bg-primary) text-(--bg-primary) text-md font-border px-8 py-3 gap-4  flex flex-row justify-center items-center rounded-md transition-all duration-300 cursor-pointer hover:text-(--text-primary) hover:border-(--brand-color) hover:bg-(--brand-color) hover:scale-95">
-						Order Now
+						Purchase
 						<IconShoppingCartFilled />
 					</button>
 				</div>

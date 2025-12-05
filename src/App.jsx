@@ -7,6 +7,7 @@ import Lenis from "@studio-freight/lenis";
 import Subscribe from "@/components/subscribe/Subscribe";
 import OurTeam from "@/components/our_team/OurTeam";
 import Footer from "@/components/footer/Footer";
+import Buy from "@/components/buy/Buy";
 
 function App() {
 	useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
 			<Navigation />
 			<Hero />
 			<Features />
+			<Buy />
 			<OurTeam />
 			<Subscribe />
 			<Footer />
