@@ -4,7 +4,9 @@ import Navigation from "@/components/navigation/Navigation";
 import Hero from "@/pages/hero/Hero";
 import Features from "@/pages/features/Features";
 import Lenis from "@studio-freight/lenis";
-import Subscribe from "./components/subscribe/Subscribe";
+import Subscribe from "@/components/subscribe/Subscribe";
+import OurTeam from "@/components/our_team/OurTeam";
+import Footer from "@/components/footer/Footer";
 
 function App() {
 	useEffect(() => {
@@ -32,7 +34,9 @@ function App() {
 			<Navigation />
 			<Hero />
 			<Features />
+			<OurTeam />
 			<Subscribe />
+			<Footer />
 		</div>
 	);
 }

@@ -75,12 +75,16 @@ const Hero = () => {
 							</defs>
 						</svg>
 					</div>
-					<p className=" text-(--text-secondary) font-extralight w-96">
+					<p className=" text-(--text-tertiary) font-extralight w-96">
 						A next-generation helmet engineered with advanced optics, adaptive
 						sensors, and a refined aerodynamic shell — built to deliver
 						unmatched clarity and protection on every ride.
 					</p>
-					<button className={styles.orderBtn}>
+					{/* <button className={styles.orderBtn}>
+						Order Now
+						<IconShoppingCartFilled />
+					</button> */}
+					<button className="bg-(--text-primary) border border-(--bg-primary) text-(--bg-primary) text-md font-border px-8 py-3 gap-4  flex flex-row justify-center items-center rounded-md transition-all duration-300 cursor-pointer hover:text-(--text-primary) hover:border-(--brand-color) hover:bg-(--brand-color) hover:scale-95">
 						Order Now
 						<IconShoppingCartFilled />
 					</button>

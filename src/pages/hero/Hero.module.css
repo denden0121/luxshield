@@ -33,7 +33,7 @@
 	color: var(--text-tertiary);
 }
 
-.orderBtn {
+/* .orderBtn {
 	color: var(--text-primary);
 	background-color: var(--brand-color);
 	padding: 12px 32px;
@@ -42,7 +42,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: 12px;
-}
+} */
 
 /* .orderBtn {
 	color: var(--text-primary);

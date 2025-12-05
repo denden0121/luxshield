@@ -7,7 +7,7 @@ const ThirdSection = () => {
 		<div className="w-full lenis-section border-green-900 h-dvh relative flex flex-row justify-start items-center">
 			<div className="w-1/2 h-full flex flex-col p-9 justify-between items-start border-red-600">
 				<div className={`flex flex-col gap-4  w-2/6`}>
-					<p className="text-lg text-(--text-secondary) font-light">3 - 4</p>
+					<p className="text-lg text-(--text-secondary) font-light">3 ─ 4</p>
 					<p className="text-4xl text-(--text-primary) font-extrabold">
 						INNER LINE & FOAM
 					</p>

@@ -57,18 +57,24 @@
 	--text-reverse-tertiary: #bbbbbb;
 } */
 #root {
-	--brand-color: #48030E;
-	--brand-color-secondary: #343a40;
+	--brand-color: #640101;
+	--brand-color-secondary: #111111;
 	--brand-color-tertiary: #6c757d;
+	--brand-color-small: #da0000;
 
 	--bg-primary: #060507;
 	--bg-secondary: #DFEAF6;
 	--bg-tertiary: #bcbfc2;
-	--bg-dark: #000000;
+	--bg-dark: #111111;
 
 	--text-primary: #ffffff;
 	--text-secondary: rgb(255, 255, 255, .9);
 	--text-tertiary: #3F3E44;
+	--text-tertiary: #9297A2;
+
+	--list-marker: "〣 ";
+	--list-marker: "◈ ";
+	--list-marker-hover: "◆ ";
 }
 
 */

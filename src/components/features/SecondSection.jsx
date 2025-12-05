@@ -7,7 +7,7 @@ const SecondSection = () => {
 		<div className="w-full lenis-section border-green-900 h-dvh relative flex flex-row-reverse justify-start items-center">
 			<div className="w-1/2 h-full flex flex-col p-9 justify-between items-end  border-red-600">
 				<div className={`flex flex-col gap-4  w-2/6`}>
-					<p className="text-lg text-(--text-secondary) font-light">2 - 4</p>
+					<p className="text-lg text-(--text-secondary) font-light">2 ─ 4</p>
 					<p className="text-4xl text-(--text-primary) font-extrabold">
 						VISOR & OPTICS SYSTEM
 					</p>
