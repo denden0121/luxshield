@@ -3,13 +3,17 @@ import { IconArrowNarrowRight } from "@tabler/icons-react";
 import HelmetFirstImg from "@/assets/images/first-helmet.svg";
 import HelmetSecondImg from "@/assets/images/second-helmet.svg";
 import HelmetThirdImg from "@/assets/images/third-helmet.svg";
+import HexagonSvg from "@/assets/images/Hexagon.svg";
 
 const Buy = () => {
 	return (
-		<div className="w-full h-dvh  border-green-600 bg-(--bg-primary) flex flex-col justify-between items-start p-9">
-			<div className="w-full h-full  border-green-600 flex flex-row justify-between items-center">
+		<div className="w-full h-dvh relative border-green-600 bg-(--bg-primary) flex flex-col justify-between items-start p-9">
+			<div className="absolute w-full z-0 h-full border-(--bg-svg)">
+				<img src={HexagonSvg} alt="" />
+			</div>
+			<div className="w-full h-full z-10  border-green-600 flex flex-row justify-between items-center">
 				<div className="w-1/2 h-full border-green-600 flex flex-col justify-between items-start pr-9">
-					<div className="w-full h-1/2 bg-(--brand-color-secondary) flex flex-col justify-center items-center">
+					<div className="w-full h-2/3 bg-(--brand-color-secondary) flex flex-col justify-center items-center">
 						<img src={HelmetFirstImg} alt="" className="h-4/5" />
 					</div>
 					<div className="w-full h-3/12 flex flex-row justify-between items-center">
@@ -65,15 +69,12 @@ const Buy = () => {
 											className="bg-(--brand-color-secondary) w-28 border-green-600 placeholder:text-(--text-tertiary) px-3.5 py-3.5 rounded-full text-center"
 										/>
 									</label>
-									<label
-										htmlFor="size"
-										className=" border-green-600 rounded-full "
-									>
+									<label htmlFor="size" className="rounded-full">
 										<select
 											name="size"
 											id="size"
-											className="bg-(--brand-color-secondary) w-28 border-green-600 placeholder:text-(--text-tertiary) px-3.5 py-3.5 rounded-full text-start text-(--text-tertiary) "
 											defaultValue=""
+											className="w-28  bg-(--brand-color-secondary) text-(--text-tertiary) text-sm text-start px-3.5 py-3.5 pr-8 rounded-full"
 										>
 											<option value="" disabled hidden>
 												Size
@@ -89,7 +90,7 @@ const Buy = () => {
 
 								<div className="w-max h-max  border-green-600 flex flex-row justify-start items-center gap-3">
 									<button className="w-full bg-(--text-primary) text-lg text-(--bg-primary) font-bold px-6 py-3 gap-4 rounded-md flex flex-row justify-center items-center transition-all duration-300 cursor-pointer hover:bg-(--brand-color) hover:text-(--text-primary) hover:scale-95">
-										Subscribe <IconArrowNarrowRight />
+										Add to cart <IconArrowNarrowRight />
 									</button>
 								</div>
 							</form>

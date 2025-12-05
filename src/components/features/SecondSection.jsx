@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./SecondSection.module.css";
 import LineImg from "@/assets/images/line.svg";
+import HexagonSecondSvg from "@/assets/images/Hexagon-2.svg";
 
 const SecondSection = () => {
 	return (
 		<div className="w-full lenis-section border-green-900 h-dvh relative flex flex-row-reverse justify-start items-center">
+			<div className="absolute w-full h-full border-(--bg-svg)">
+				<img src={HexagonSecondSvg} alt="" />
+			</div>
 			<div className="w-1/2 h-full flex flex-col p-9 justify-between items-end  border-red-600">
 				<div className={`flex flex-col gap-4  w-2/6`}>
 					<p className="text-lg text-(--text-secondary) font-light">2 ─ 4</p>

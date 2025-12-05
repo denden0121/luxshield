@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<div className="w-full h-[60dvh] bg-(--bg-dark) flex flex-col justify-center items-end p-9">
-			<div className="w-full h-9/12  border-green-600 flex flex-row justify-between items-center">
+		<div className="w-full h-dvh bg-(--bg-primary) flex flex-col justify-end items-end ">
+			<div className="w-full h-1/2 bg-(--bg-dark)  border-green-600 flex flex-row p-9 justify-between items-center">
 				<div className="h-4/5  border-green-600 w-1/4 flex flex-col justify-start items-start gap-3.5 [&_p]:text-(--text-tertiary) [&_p]:hover:text-(--brand-color) [&_p]:cursor-pointer *:duration-300 ">
 					<h4 className="text-(--text-primary) text-lg font-medium">
 						Comapany
@@ -53,7 +53,7 @@ const Footer = () => {
 					</label>
 				</div>
 			</div>
-			<div className="w-full h-1/12  flex flex-col justify-center items-center">
+			<div className="w-full h-1/12  bg-(--bg-dark) p-9 flex flex-col justify-center items-center">
 				<p className="text-(--text-tertiary) text-md font-extralight">
 					Copyright © LuxShield │ Designed & Coded by Denfer Jericho Abad
 				</p>

@@ -8,11 +8,15 @@ import {
 	IconBrandLinkedin,
 } from "@tabler/icons-react";
 import SubscribeImg from "@/assets/images/subscribe-image.svg";
+import HexagonSvg from "@/assets/images/Hexagon-3.svg";
 
 const Subscribe = () => {
 	return (
-		<div className="w-full h-dvh flex flex-row justify-center items-start bg-(--bg-primary) p-9">
-			<div className="w-2/6 h-full   border-green-400 flex flex-col justify-center items-start gap-6">
+		<div className="w-full h-dvh relative flex flex-row justify-center items-start bg-(--bg-primary) p-9">
+			<div className="absolute w-full z-0 h-full border-(--bg-svg)">
+				<img src={HexagonSvg} alt="" />
+			</div>
+			<div className="w-2/6 h-full z-10  border-green-400 flex flex-col justify-center items-start gap-6">
 				<p className="text-(--text-tertiary) text-sm font-light">
 					・Newsletter
 				</p>

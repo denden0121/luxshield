@@ -35,8 +35,8 @@ function App() {
 			<Navigation />
 			<Hero />
 			<Features />
-			<Buy />
 			<OurTeam />
+			<Buy />
 			<Subscribe />
 			<Footer />
 		</div>

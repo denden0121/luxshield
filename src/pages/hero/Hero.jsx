@@ -7,12 +7,16 @@ import HelmetBottomSideImg from "@/assets/images/helmet-bottom-side.svg";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment } from "@react-three/drei";
 import Model from "@/components/hero_model/HeroModel";
+import HexagonSvg from "@/assets/images/Hexagon-4.svg";
 
 const Hero = () => {
 	const modelRef = useRef();
 
 	return (
 		<div className="h-dvh snapSections w-full overflow-hidden bg-(--bg-primary) relative flex flex-row justify-start items-center">
+			<div className="absolute w-full z-0 h-full border-(--bg-svg)">
+				<img src={HexagonSvg} alt="" />
+			</div>
 			<span className={styles.helmetObjectContainer}>
 				{/* <img src={HeroImg} alt="" /> */}
 				<Canvas>
@@ -30,9 +34,8 @@ const Hero = () => {
 			</span>
 			<div className="w-3/4 z-2  h-full flex flex-col justify-end items-start p-8">
 				<div className="border-red-600 h-2/4 w-ful flex flex-col justify-start items-start gap-8 ">
-					<div>
+					<div className="z-200">
 						<svg
-							className="z-[150]"
 							width="978"
 							height="105"
 							viewBox="0 0 978 105"
